@@ -1,6 +1,6 @@
 <img align="right" width="175px" src="https://camo.githubusercontent.com/7e57ebd8fa0125653e3b41c87fc4d3a6b61964fc/687474703a2f2f692e696d6775722e636f6d2f7663355a56714c2e706e673f32" />
 
-Symfony6 Docker Edition [![by](https://img.shields.io/badge/by-Systemcheck-brightgreen)](https://github.com/Systemcheck)
+Symfony6 Docker Edition [![by](https://img.shields.io/badge/by-Systemcheck-brightgreen)](https://github.com/Systemcheck) ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Systemcheck/dockerized-symfony6/symfony.yml?style=flat-square)
 ========================
 
 The *unofficial* Symfony Docker Edition – by [@Systemcheck](https://github.com/Systemcheck)
@@ -17,7 +17,7 @@ This is an unofficial, open-source and community-driven boilerplate for Symfony 
 Table of Contents
 ==================
 
-- [Symfony6 Docker Edition ](#symfony6-docker-edition-)
+- [Symfony6 Docker Edition  ](#symfony6-docker-edition--)
 - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [FAQ](#faq)

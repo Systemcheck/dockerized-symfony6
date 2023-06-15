@@ -1,11 +1,12 @@
 <img align="right" width="175px" src="https://camo.githubusercontent.com/7e57ebd8fa0125653e3b41c87fc4d3a6b61964fc/687474703a2f2f692e696d6775722e636f6d2f7663355a56714c2e706e673f32" />
 
-Symfony6 Docker Edition [![by](https://img.shields.io/badge/by-Systemcheck-brightgreen)](https://github.com/Systemcheck) ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Systemcheck/dockerized-symfony6/symfony.yml?style=flat-square)
+Symfony 6.3 + Docker + PHP 8.2 + MySQL + phpMyAdmin
+[![by](https://img.shields.io/badge/by-Systemcheck-brightgreen)](https://github.com/Systemcheck) ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Systemcheck/dockerized-symfony6/symfony.yml?style=flat-square)
 ========================
 
 The *unofficial* Symfony Docker Edition – by [@Systemcheck](https://github.com/Systemcheck)
 
-This is an unofficial, open-source and community-driven boilerplate for Symfony projects that run on [Docker](https://www.docker.com/). It's an attempt of standardizing and making it easier to bootstrap Symfony applications ready for development and production environments. The main tools used are Symfony, Docker and Docker Compose. Other things included are:
+This is an unofficial, open-source and community-driven boilerplate for Symfony projects, including database support. that run on [Docker](https://www.docker.com/). It's an attempt of standardizing and making it easier to bootstrap Symfony applications ready for development and production environments. The main tools used are Symfony, Docker and Docker Compose. Other things included are:
 
 - PHP 8.2 + PHP-FPM
 - Nginx
@@ -17,7 +18,7 @@ This is an unofficial, open-source and community-driven boilerplate for Symfony 
 Table of Contents
 ==================
 
-- [Symfony6 Docker Edition  ](#symfony6-docker-edition--)
+- [ ](#-)
 - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [FAQ](#faq)
@@ -32,10 +33,10 @@ Table of Contents
 git clone https://github.com/Systemcheck/dockerized-symfony6.git my-project
 ```
 
-2 install dependencies
+2 install dependencies (with composer of course)
 
 ```bash
-git clone https://github.com/Systemcheck/dockerized-symfony6.git my-project
+composer install
 ```
 
 3 build and run the containers:
@@ -44,7 +45,7 @@ git clone https://github.com/Systemcheck/dockerized-symfony6.git my-project
 docker-compose up -d --build
 ```
 
-Once that's done, you should be able to access the application on the IP that docker (or Docker Machine) is running at.
+Once that's done, you should be able to access the application at //localhost:8080. The database should be migrated after containers are running.
 
 ## FAQ
 

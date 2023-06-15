@@ -1,6 +1,6 @@
 <img align="right" width="175px" src="https://camo.githubusercontent.com/7e57ebd8fa0125653e3b41c87fc4d3a6b61964fc/687474703a2f2f692e696d6775722e636f6d2f7663355a56714c2e706e673f32" />
 
-Symfony 6.3 + Docker + PHP 8.2 + MySQL + phpMyAdmin
+Symfony6.3+Docker + PHP 8.2 + MySQL + phpMyAdmin
 [![by](https://img.shields.io/badge/by-Systemcheck-brightgreen)](https://github.com/Systemcheck) ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Systemcheck/dockerized-symfony6/symfony.yml?style=flat-square)
 ========================
 
@@ -36,6 +36,7 @@ git clone https://github.com/Systemcheck/dockerized-symfony6.git my-project
 2 install dependencies (with composer of course)
 
 ```bash
+cd my-project
 composer install
 ```
 

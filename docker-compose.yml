@@ -13,13 +13,13 @@ services:
       - symfony
   symfony:
     #image: php:8-fpm
-    container_name: 'symfony-php'
+    container_name: 'symfony'
     build: './docker/php-fpm'
     volumes:
       - ./:/var/www/html
 
   database:
-        image: mariadb:10.4.20
+        image: mariadb:10.8.3
         container_name: 'database'
         environment:
             MYSQL_ROOT_PASSWORD: 'Sup3rS3cr3tPa55'
